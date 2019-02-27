@@ -1,8 +1,8 @@
 # Slovenščina
 
-Dobrodošli. Učim se slovensko in ta _repo_ mi bo pomagal dati skupaj vse informaciji ki potrebujem.
+Dobrodošli. Učim se slovensko in ta _repo_ mi bo pomagal dati skupaj vse informaciji kar potrebujem.
 
-Če dobro razumete mi boste lahko pomagali; na začetek seveda ne vem kako se vse prav piše, ampak bo potem veliko bolje.
+Če dobro razumete slovensko mi boste lahko pomagali; na začetek seveda ne vem kako se vse prav piše, ampak bo potem veliko bolje.
 
 # Program
 
