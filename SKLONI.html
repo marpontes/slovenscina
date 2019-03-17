@@ -1,0 +1,607 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: #333;
+        background-color: white;
+    }
+
+    .word {
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    thead th {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        background-color: #585858;
+        border-color: white;
+        border: 0;
+        color: white;
+    }
+
+    .hl {
+        color: red;
+    }
+
+    table {
+        margin: 0;
+        border: solid 2px black;
+    }
+
+    tr> :nth-last-child(4),
+    tr> :nth-last-child(8),
+    tr> :nth-last-child(6) {
+        border-right: solid 2px black;
+    }
+
+    td,
+    th {
+        border: solid 1px #d2d2d2;
+        padding: 2px 12px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    tr.border>td {
+        border-top: solid 2px black;
+    }
+
+    .first {
+        background-color: #e2ffed;
+    }
+
+    .third {
+        background-color: lightblue;
+    }
+
+    .equals-within{
+        border-right: solid 15px lightgrey;
+    }
+</style>
+
+<table cellSpacing="0">
+    <thead>
+        <tr>
+            <th class="center">
+                Sklon
+            </th>
+            <th>
+                Uprašanje
+            </th>
+            <th>
+                Odgovor
+            </th>
+            <th>
+                #
+            </th>
+            <th>
+                #...
+            </th>
+            <th>
+                Moški spol
+            </th>
+            <th>
+                Ženski spol
+            </th>
+            <th>
+                Sredni spol
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <!-- 1 sklon -->
+        <tr class="border">
+            <td rowspan="3" class="center">
+                1 <br />
+                Imenovalnik
+            </td>
+            <td rowspan="3">
+                Kdo je to? / Kaj je to?
+            </td>
+            <td rowspan="3">
+                To (je, sta, so) ...
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                To je en (a) (o)
+            </td>
+            <td class="first">
+                <span class="word">Stol</span>
+            </td>
+            <td class="first">
+                <span class="word">Miza</span>
+            </td>
+            <td class="first">
+                <span class="word">Letalo</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                To sta dva (M) dve(Ž/S)
+            </td>
+            <td class="first">
+                <span class="word">
+                    Stol<span class="hl">a</span> 
+                </span>
+            </td>
+            <td class="first">
+                <span class="word">
+                    Miz<span class="hl">i</span>
+                </span>
+            </td>
+            <td class="first">
+                <span class="word">
+                    Letal<span class="hl">i</span>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                <!-- TODO: trie ... ? -->
+                To so ...
+            </td>
+            <td class="first">
+                <span class="word">
+                    Stol<span class="hl">i</span>
+                </span>
+            </td>
+            <td class="first">
+                <span class="word">
+                    Miz<span class="hl">e</span>
+                </span>
+            </td>
+            <td class="first">
+                <span class="word">
+                    Letal<span class="hl">a</span>
+                </span>
+            </td>
+        </tr>
+
+        <!-- 2 sklon -->
+        <tr class="border">
+            <td rowspan="3" class="center">
+                2 <br />
+                Rodilnik
+            </td>
+            <td rowspan="3">
+                Koga ni /
+                Česa ne ...
+            </td>
+            <td rowspan="3">
+                .. ni / ne maram... / <br />
+                iz / z/s (-ska/-ška) / od /<br /> 
+                do / zraven / blizu / mimo /  <br />
+                brez / okoli / okrog
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                Enega / Ene (Ž)
+            </td>
+            <td>
+                Enega Zelenega <br />
+                <span class="word">
+                    Stol<span class="hl">a</span> 
+                </span>
+            </td>
+            <td>
+                Ene Črne<br />
+                <span class="word">Miz<span class="hl">e</span> </span>
+            </td>
+            <td>
+                Enega Majhnega<br />
+                <span class="word">Letal<span class="hl">a</span> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Dveh
+            </td>
+            <td class="equals-within">
+                Dveh zelenih<br />
+                <span class="word">
+                    Stol<span class="hl">ov</span> 
+                </span>
+            </td>
+            <td class="equals-within">
+                Dveh črnih<br />
+                <span class="word">
+                    Miz<span class="hl">-</span>
+                </span>
+            </td>
+            <td class="equals-within">
+                Dveh majhnih<br />
+                <span class="word">
+                    Letal<span class="hl">-</span>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Treh
+            </td>
+            <td class="equals-within">
+                Treh zelenih<br />
+                <span class="word">
+                    Stol<span class="hl">ov</span>
+                </span>
+            </td>
+            <td class="equals-within">
+                Treh črnih<br />
+                <span class="word">
+                    Miz<span class="hl">-</span>
+                </span>
+            </td>
+            <td class="equals-within">
+                Treh majhnih<br />
+                <span class="word">
+                    Letal<span class="hl">-</span>
+                </span>
+            </td>
+        </tr>
+
+        <!-- 3 sklon -->
+        <tr class="border">
+            <td rowspan="3" class="center">
+                3 <br />
+                Dajalnik
+            </td>
+            <td rowspan="3">
+                Komu dam /
+                Čemu dam
+            </td>
+            <td rowspan="3">
+                dam .../ proti / k/h / kljub <br />
+                kupiti / pisati / poslati <br />
+                prinesiti / smejati se <br />
+                telefonirati / pomagati
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                Enemu / Eni Enem
+            </td>
+            <td>
+                Enemu zelenemu <br />
+                <span class="word">
+                    Stol<span class="hl">u</span> 
+                </span>
+            </td>
+            <td>
+                Eni črni<br />
+                <span class="word">Miz<span class="hl">i</span> </span>
+            </td>
+            <td>
+                Enem Majhnemu<br />
+                <span class="word">Letal<span class="hl">u</span> </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Dvema
+            </td>
+            <td class="third">
+                Dvema zelenima<br />
+                <span class="word">
+                    Stol<span class="hl">oma</span> 
+                </span>
+            </td>
+            <td class="third">
+                Dvema črnnima<br />
+                <span class="word">
+                    Miz<span class="hl">ama</span>
+                </span>
+            </td>
+            <td class="third">
+                Dvema majhnima<br />
+                <span class="word">
+                    Letal<span class="hl">oma</span>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Trem
+            </td>
+            <td>
+                Trem zelenim<br />
+                <span class="word">
+                    Stol<span class="hl">om</span>
+                </span>
+            </td>
+            <td>
+                Trem črnim<br />
+                <span class="word">
+                    Miz<span class="hl">am</span>
+                </span>
+            </td>
+            <td>
+                Trem majhnim<br />
+                <span class="word">
+                    Letal<span class="hl">om</span>
+                </span>
+            </td>
+        </tr>
+
+        <!-- 4 sklon -->
+        <tr class="border">
+            <td rowspan="3" class="center">
+                4 <br />
+                Tožilnik
+            </td>
+            <td rowspan="3">
+                Koga / Kaj<BR />
+                Za Koga / za kaj
+
+            </td>
+            <td rowspan="3">
+                Verb / Action <br />
+                V / NA / ZA / ČEZ
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                En (M) / Eno
+            </td>
+            <td class="first">
+                En zelen <br />
+                <span class="word">
+                    Stol
+                </span>
+            </td>
+            <td>
+                Eno črno<br />
+                <span class="word">Miz<span class="hl">o</span> </span>
+            </td>
+            <td class="first">
+                Eno Majhno<br />
+                <span class="word">Letalo</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                Dva (M) / Dve
+            </td>
+            <td class="first">
+                Dva zelena<br />
+                <span class="word">
+                    Stol<span class="hl">a</span> 
+                </span>
+            </td>
+            <td class="first">
+                Dve črni<br />
+                <span class="word">
+                    Miz<span class="hl">i</span>
+                </span>
+            </td>
+            <td class="first">
+                Dve Majhni<br />
+                <span class="word">
+                    Letal<span class="hl">i</span>
+                </span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                Tri
+            </td>
+            <td>
+                Tri zelene<br />
+                <span class="word">
+                    Stol<span class="hl">e</span>
+                </span>
+            </td>
+            <td class="first">
+                Tri črne<br />
+                <span class="word">
+                    Miz<span class="hl">e</span>
+                </span>
+            </td>
+            <td class="first">
+                Tri majhna<br /><!-- TODO CHECK -->
+                <span class="word">
+                    Letal<span class="hl">a</span>
+                </span>
+            </td>
+        </tr>
+
+        <!-- 5 sklon -->
+        <tr class="border">
+            <td rowspan="3" class="center">
+                5 <br />
+                Mestnik
+            </td>
+            <td rowspan="3">
+                Pri kom / Pri čem <br />
+                O Kom / O Čem / Kje<br />
+                Kdaj (OB/PO)
+            </td>
+            <td rowspan="3">
+                Pri.. / Location <br />
+                O, V, NA, PRI, PO , OB
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                ?
+                <!-- TODO  -->
+            </td>
+            <td>
+                Zelenem <br />
+                <span class="word">
+                    Stol<span class="hl">u</span>
+                </span>
+            </td>
+            <td>
+                Črni<br />
+                <span class="word">Miz<span class="hl">i</span> </span>
+            </td>
+            <td>
+                Majhnem<br />
+                <span class="word">Letal<span class="hl">u</span></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                ?
+                <!-- TODO  -->
+            </td>
+            <td class="equals-within">
+                Zelenih <br />
+                <span class="word">
+                    Stol<span class="hl">ih</span>
+                </span>
+            </td>
+            <td class="equals-within">
+                Črnih<br />
+                <span class="word">Miz<span class="hl">ah</span> </span>
+            </td>
+            <td class="equals-within">
+                Majhnih<br />
+                <span class="word">Letal<span class="hl">ih</span></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                ?
+                <!-- TODO  -->
+            </td>
+            <td class="equals-within">
+                Zelenih <br />
+                <span class="word">
+                    Stol<span class="hl">ih</span>
+                </span>
+            </td>
+            <td class="equals-within">
+                črniih<br />
+                <span class="word">Miz<span class="hl">ah</span> </span>
+            </td>
+            <td class="equals-within">
+                Majhnih<br />
+                <span class="word">Letal<span class="hl">ih</span></span>
+            </td>
+        </tr>
+
+        <!-- 6 sklon -->
+        <tr class="border">
+            <td rowspan="3" class="center">
+                6 <br />
+                Orodnik
+            </td>
+            <td rowspan="3">
+                S kom / S čim
+            </td>
+            <td rowspan="3">
+                S / Z
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                ?
+                <!-- TODO  -->
+            </td>
+            <td>
+                Zelenim <br />
+                <span class="word">
+                    Stol<span class="hl">om</span>
+                </span>
+            </td>
+            <td>
+                Črno<br />
+                <span class="word">Miz<span class="hl">o</span> </span>
+            </td>
+            <td>
+                Majhnim<br />
+                <span class="word">Letal<span class="hl">om</span></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                ?
+                <!-- TODO  -->
+            </td>
+            <td class="third">
+                Zelenima <br />
+                <span class="word">
+                    Stol<span class="hl">oma</span>
+                </span>
+            </td>
+            <td class="third">
+                Črnima<br />
+                <span class="word">Miz<span class="hl">ama</span> </span>
+            </td>
+            <td class="third">
+                Majhnima<br />
+                <span class="word">Letal<span class="hl">oma</span></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                ?
+                <!-- TODO  -->
+            </td>
+            <td>
+                Zelenimi <br />
+                <span class="word">
+                    Stol<span class="hl">i</span>
+                </span>
+            </td>
+            <td>
+                Črniimi<br />
+                <span class="word">Miz<span class="hl">ami</span> </span>
+            </td>
+            <td>
+                Majhnimi<br />
+                <span class="word">Letal<span class="hl">i</span></span>
+            </td>
+        </tr>
+
+    </tbody>
+</table>

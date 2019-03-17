@@ -21,4 +21,4 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * Deček - boy till 23 years old
 * Dekle - ??? Sredna spola ali punca ??? till 23 years old
 * Deklica - girl till 23 years old
-
+* Morda - maybe
