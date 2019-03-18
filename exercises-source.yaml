@@ -1,0 +1,402 @@
+1 sklon:
+  - To (je/sta/so) ___ [1,2,3]:
+      - miza
+      - računalnik
+      - stol
+      - dežnik
+      - krilo
+      - jakna
+      - soba
+      - svinčnik
+      - torba
+      - ura
+      - denarnica
+      - telefon
+      - ključ
+      - nahrbtnik
+      - okno
+      - stanovanje
+      - televizija
+      - majica
+      - avtomobil
+      - letalo
+      - črka
+      - številka
+
+2 sklon:
+  - ni ___ [1,2,3]:
+      - mačka
+      - pes
+      - Marcello
+      - Ajda
+      - Natakar
+      - Tajnica
+      - Tovornjak
+      - Sneg
+      - Dež
+      - ura
+      - denarnica
+      - telefon
+      - ključ
+      - nahrbtnik
+      - okno
+      - stanovanje
+      - televizija
+      - majica
+      - avtomobil
+      - letalo
+      - črka
+      - številka
+
+  - Ne maram ___ [1,2,3]:
+      - jabolko
+      - hruška
+      - oreh
+      - fižol
+      - zelenjava
+      - Kruh
+      - čokolada
+      - čebula
+      - meso
+
+  - On je (iz/z/s) ___ [1]:
+      - Brazilija
+      - Hrvaška
+      - Nemčija
+      - Grčija
+      - Recife
+
+  - To je blizu ___ [1,2,3]:
+      - Brazilija
+      - Hrvaška
+      - Nemčija
+      - Grčija
+      - Recife
+
+  - Vstal sem brez ___ [1,2,3]:
+      - miza
+      - računalnik
+      - stol
+      - dežnik
+      - krilo
+      - jakna
+      - soba
+      - svinčnik
+      - torba
+      - ura
+      - denarnica
+      - telefon
+      - ključ
+      - nahrbtnik
+      - okno
+      - stanovanje
+      - televizija
+      - majica
+      - avtomobil
+      - letalo
+      - črka
+      - številka
+
+3 sklon:
+  - Danes se peljemo proti ___ [1]:
+      - Brdo
+      - Kranj
+      - Ljubljana
+      - Novo Mesto
+      - Maribor
+      - Visoko
+      - Šenčur
+      - Bled
+      - Jesenice
+      - Triglav
+      - Pokljuka
+
+  - Jutri grem (k/h) ___ [1]:
+      - Marcello
+      - Ajda
+      - Andrej
+      - Andreja
+      - Marko
+
+  - Telefoniram ___ [1,2,3]:
+      - Marcello
+      - Ajda
+      - Andrej
+      - Andreja
+      - Marko
+      - brat
+      - sestra
+      - bratranec
+      - žena
+      - punca
+      - fant
+      - sosed
+      - prijatelj
+
+  - Pomagam ___ [1,2,3]:
+      - Marcello
+      - Ajda
+      - Andrej
+      - Andreja
+      - Marko
+      - brat
+      - sestra
+      - bratranec
+      - žena
+      - punca
+      - fant
+      - sosed
+      - prijatelj
+
+  - Bojim se ___ [1,3]:
+      - Marcello
+      - Ajda
+      - Andrej
+      - Andreja
+      - Marko
+      - brat
+      - sestra
+      - bratranec
+      - žena
+      - punca
+      - fant
+      - sosed
+      - prijatelj
+      - avtomobil
+      - letalo
+      - mačka
+      - pes
+      - Sneg
+      - stanovanje
+
+  - Smejim se ___ [1,2,3]:
+      - Marcello
+      - Ajda
+      - Andrej
+      - Andreja
+      - Marko
+      - brat
+      - sestra
+      - bratranec
+      - žena
+      - punca
+      - fant
+      - sosed
+      - prijatelj
+
+4 sklon:
+  - Danes grem (na/v) ___ [1]:
+      - trgovina
+      - Triglav
+      - Krvavec
+      - hrib
+      - šola
+      - vrtec
+      - policija
+      - stanovanje
+      - Brazilija
+      - Hrvaška
+      - Nemčija
+      - Grčija
+      - Recife
+
+  - To je knjiga za ___ [1]:
+      - sestra
+      - brat
+      - bratranec
+      - Ajda
+      - Marcello
+      - učitelj
+      - Katra
+      - Prijatelj
+      - Babica
+
+  - Vidim ___ [1,2,3]:
+      - miza
+      - računalnik
+      - stol
+      - dežnik
+      - krilo
+      - jakna
+      - soba
+      - svinčnik
+      - torba
+      - ura
+      - denarnica
+      - telefon
+      - ključ
+      - nahrbtnik
+      - okno
+      - stanovanje
+      - televizija
+      - majica
+      - avtomobil
+      - letalo
+      - črka
+      - številka
+      - sestra
+      - brat
+      - bratranec
+      - Ajda
+      - Marcello
+      - učitelj
+      - Katra
+      - Prijatelj
+      - Babica
+
+  - To je aparat za ___ [1]:
+      - torta
+      - pica
+      - noga
+      - okno
+      - računalnik
+      - stol
+      - jakna
+      - telefon
+      - letalo
+
+5 sklon:
+  - Ta članek govori o ___ [1,2,3]:
+      - pohodništvo
+      - smučanje
+      - nogomet
+      - Brazilija
+      - Capoeira
+      - računalnik
+      - stol
+      - dežnik
+      - krilo
+      - jakna
+      - soba
+      - svinčnik
+      - torba
+      - ura
+      - denarnica
+      - telefon
+      - ključ
+      - nahrbtnik
+      - okno
+      - stanovanje
+      - televizija
+      - majica
+      - avtomobil
+      - letalo
+      - črka
+      - številka
+      - sestra
+      - brat
+      - bratranec
+      - Ajda
+      - Marcello
+      - učitelj
+      - Katra
+      - Prijatelj
+      - Babica
+
+  - Antena je (na/pri/v) ___ [1,2,3]:
+      - računalnik
+      - stol
+      - dežnik
+      - krilo
+      - jakna
+      - soba
+      - svinčnik
+      - torba
+      - ura
+      - denarnica
+      - telefon
+      - ključ
+      - nahrbtnik
+      - okno
+      - stanovanje
+      - televizija
+      - majica
+      - avtomobil
+      - letalo
+      - črka
+      - številka
+      - sestra
+      - brat
+      - bratranec
+      - Ajda
+      - Marcello
+      - učitelj
+      - Katra
+      - Prijatelj
+      - Babica
+
+  - Po ___ gremo na pijačo [1]:
+      - pohodništvo
+      - smučanje
+      - nogomet
+      - Brazilija
+      - Capoeira
+      - služba
+      - Sestanek
+      - Predstava
+      - koncert
+      - vrtec
+
+  - Marcello je (v/na/pri) ___ [1]:
+      - trgovina
+      - Triglav
+      - Krvavec
+      - hrib
+      - šola
+      - vrtec
+      - policija
+      - stanovanje
+      - Brazilija
+      - Hrvaška
+      - Nemčija
+      - Grčija
+      - Recife
+      - Nova Gorica
+
+6 sklon:
+  - Jaz zelo rad potujem (z/s) ___ [1]:
+      - avtobus
+      - letalo
+      - avto
+      - kolesa
+      - tovornjak
+      - drsalka
+
+  - Maja ima rada kavo (z/s) ___ [1]:
+      - mleko
+      - sladkor
+      - smetana
+      - pena
+      - Kruh
+      - piškotek
+      - sladoled
+
+  - Družinska slika je pod ___ [1,2,3]:
+      - miza
+      - okno
+      - stol
+      - računalnik
+      - dežnik
+      - jakna
+      - torba
+      - denarnica
+      - telefon
+      - nahrbtnik
+      - televizija
+      - majica
+
+  - Fakulteta se nahaja med ___ in banko [1,2,3]:
+      - miza
+      - okno
+      - stol
+      - računalnik
+      - dežnik
+      - jakna
+      - torba
+      - denarnica
+      - telefon
+      - nahrbtnik
+      - televizija
+      - majica
+
+ # THKSFCKPČK Š -> S namestu Z
