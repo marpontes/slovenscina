@@ -30,6 +30,7 @@
     }
 
     tr> :nth-last-child(4),
+    tr>.thick-border,
     tr> :nth-last-child(8),
     tr> :nth-last-child(6) {
         border-right: solid 2px black;
@@ -54,14 +55,24 @@
     }
 
     .third {
-        background-color: lightblue;
+        /* background-color: lightblue; */
     }
 
-    .equals-within{
+    .equals-within {
         border-right: solid 15px lightgrey;
     }
 </style>
-
+<ul>
+    <li>
+        Show similar to 1 sklon
+    </li>
+    <li>
+        Show dvojina = mnozina
+    </li>
+    <li>
+        Show when c č ž š j -> em
+    </li>
+</ul>
 <table cellSpacing="0">
     <thead>
         <tr>
@@ -112,12 +123,15 @@
                 To je en (a) (o)
             </td>
             <td class="first">
+                En <br />
                 <span class="word">Stol</span>
             </td>
             <td class="first">
+                Ena <br />
                 <span class="word">Miza</span>
             </td>
             <td class="first">
+                Eno <br />
                 <span class="word">Letalo</span>
             </td>
         </tr>
@@ -129,16 +143,19 @@
                 To sta dva (M) dve(Ž/S)
             </td>
             <td class="first">
+                Dva <br />
                 <span class="word">
                     Stol<span class="hl">a</span> 
                 </span>
             </td>
             <td class="first">
+                Dve <br />
                 <span class="word">
                     Miz<span class="hl">i</span>
                 </span>
             </td>
             <td class="first">
+                Dve <br />  
                 <span class="word">
                     Letal<span class="hl">i</span>
                 </span>
@@ -153,16 +170,19 @@
                 To so ...
             </td>
             <td class="first">
+                Trije <br />
                 <span class="word">
                     Stol<span class="hl">i</span>
                 </span>
             </td>
             <td class="first">
+                Tri <br />
                 <span class="word">
                     Miz<span class="hl">e</span>
                 </span>
             </td>
             <td class="first">
+                Tri <br />
                 <span class="word">
                     Letal<span class="hl">a</span>
                 </span>
@@ -181,8 +201,8 @@
             </td>
             <td rowspan="3">
                 .. ni / ne maram... / <br />
-                iz / z/s (-ska/-ška) / od /<br /> 
-                do / zraven / blizu / mimo /  <br />
+                iz / z/s (-ska/-ška) / od /<br />
+                do / zraven / blizu / mimo / <br />
                 brez / okoli / okrog
             </td>
             <td>
@@ -192,7 +212,7 @@
                 Enega / Ene (Ž)
             </td>
             <td>
-                Enega Zelenega <br />
+                Enega Zelenega<br />
                 <span class="word">
                     Stol<span class="hl">a</span> 
                 </span>
@@ -213,20 +233,26 @@
             <td>
                 Dveh
             </td>
-            <td class="equals-within">
-                Dveh zelenih<br />
+            <td class="equals-within" rowspan="2">
+                Zelenih
                 <span class="word">
                     Stol<span class="hl">ov</span> 
+                </span><br />
+                <span class="jev">
+                    Starih
+                    <span class="word">
+                        Prijatelj<span class="hl">ev</span> 
+                    </span>
                 </span>
             </td>
-            <td class="equals-within">
-                Dveh črnih<br />
+            <td class="equals-within" rowspan="2">
+                črnih<br />
                 <span class="word">
                     Miz<span class="hl">-</span>
                 </span>
             </td>
-            <td class="equals-within">
-                Dveh majhnih<br />
+            <td class="equals-within" rowspan="2">
+                majhnih<br />
                 <span class="word">
                     Letal<span class="hl">-</span>
                 </span>
@@ -236,26 +262,8 @@
             <td>
                 3
             </td>
-            <td>
+            <td class="thick-border">
                 Treh
-            </td>
-            <td class="equals-within">
-                Treh zelenih<br />
-                <span class="word">
-                    Stol<span class="hl">ov</span>
-                </span>
-            </td>
-            <td class="equals-within">
-                Treh črnih<br />
-                <span class="word">
-                    Miz<span class="hl">-</span>
-                </span>
-            </td>
-            <td class="equals-within">
-                Treh majhnih<br />
-                <span class="word">
-                    Letal<span class="hl">-</span>
-                </span>
             </td>
         </tr>
 
@@ -279,10 +287,10 @@
                 1
             </td>
             <td>
-                Enemu / Eni Enem
+                Enemu / Eni (Ž)
             </td>
             <td>
-                Enemu zelenemu <br />
+                Enemu zelenemu<br />
                 <span class="word">
                     Stol<span class="hl">u</span> 
                 </span>
@@ -292,7 +300,7 @@
                 <span class="word">Miz<span class="hl">i</span> </span>
             </td>
             <td>
-                Enem Majhnemu<br />
+                Enemu Majhnemu<br />
                 <span class="word">Letal<span class="hl">u</span> </span>
             </td>
         </tr>
@@ -304,21 +312,33 @@
                 Dvema
             </td>
             <td class="third">
-                Dvema zelenima<br />
+                Zelenima
                 <span class="word">
                     Stol<span class="hl">oma</span> 
+                </span><br />
+                <span class="jev">
+                    Starema
+                    <span class="word">
+                        Prijatelj<span class="hl">ema</span> 
+                    </span>
                 </span>
             </td>
             <td class="third">
-                Dvema črnnima<br />
+                Črnnima<br />
                 <span class="word">
                     Miz<span class="hl">ama</span>
                 </span>
             </td>
             <td class="third">
-                Dvema majhnima<br />
+                Majhnima
                 <span class="word">
                     Letal<span class="hl">oma</span>
+                </span><br />
+                <span class="jev">
+                    Čistema
+                    <span class="word">
+                        Stanovanj<span class="hl">EMA</span> 
+                    </span>
                 </span>
             </td>
         </tr>
@@ -330,21 +350,33 @@
                 Trem
             </td>
             <td>
-                Trem zelenim<br />
+                Zelenim
                 <span class="word">
                     Stol<span class="hl">om</span>
+                </span><br />
+                <span class="jev">
+                    Starim
+                    <span class="word">
+                        Prijatelj<span class="hl">em</span> 
+                    </span>
                 </span>
             </td>
             <td>
-                Trem črnim<br />
+                Črnim<br />
                 <span class="word">
                     Miz<span class="hl">am</span>
                 </span>
             </td>
             <td>
-                Trem majhnim<br />
+                Majhnim
                 <span class="word">
                     Letal<span class="hl">om</span>
+                </span><br />
+                <span class="jev">
+                    Čistim
+                    <span class="word">
+                        Stanovanj<span class="hl">EM</span> 
+                    </span>
                 </span>
             </td>
         </tr>
@@ -371,8 +403,14 @@
                 En (M) / Eno
             </td>
             <td>
-                <span class=" first">En zelen  <span class="word"> Stol </span></span> <br />
-                Enega starega <span class="word"> prijatelj<span class="hl">a</span> </span>
+                <span class=" first">
+                    En zelen
+                    <span class="word"> Stol </span>
+                </span> <br />
+                Enega starega
+                <span class="word">
+                    prijatelj<span class="hl">a</span>
+                </span>
             </td>
             <td>
                 Eno črno<br />
@@ -417,19 +455,19 @@
                 Tri
             </td>
             <td>
-                Tri zelene<br />
+                zelene<br />
                 <span class="word">
                     Stol<span class="hl">e</span>
                 </span>
             </td>
             <td class="first">
-                Tri črne<br />
+                črne<br />
                 <span class="word">
                     Miz<span class="hl">e</span>
                 </span>
             </td>
             <td class="first">
-                Tri majhna<br /><!-- TODO CHECK -->
+                majhna<br />
                 <span class="word">
                     Letal<span class="hl">a</span>
                 </span>
@@ -481,18 +519,18 @@
             <td>
                 Dveh
             </td>
-            <td class="equals-within">
-                Dveh Zelenih <br />
+            <td class="equals-within" rowspan="2">
+                Zelenih <br />
                 <span class="word">
                     Stol<span class="hl">ih</span>
                 </span>
             </td>
-            <td class="equals-within">
-                Dveh Črnih<br />
+            <td class="equals-within" rowspan="2">
+                Črnih<br />
                 <span class="word">Miz<span class="hl">ah</span> </span>
             </td>
-            <td class="equals-within">
-                Dveh Majhnih<br />
+            <td class="equals-within" rowspan="2">
+                Majhnih<br />
                 <span class="word">Letal<span class="hl">ih</span></span>
             </td>
         </tr>
@@ -500,23 +538,10 @@
             <td>
                 3
             </td>
-            <td>
+            <td class="thick-border">
                 Treh
             </td>
-            <td class="equals-within">
-                Treh Zelenih <br />
-                <span class="word">
-                    Stol<span class="hl">ih</span>
-                </span>
-            </td>
-            <td class="equals-within">
-                Treh črniih<br />
-                <span class="word">Miz<span class="hl">ah</span> </span>
-            </td>
-            <td class="equals-within">
-                Treh Majhnih<br />
-                <span class="word">Letal<span class="hl">ih</span></span>
-            </td>
+
         </tr>
 
         <!-- 6 sklon -->
@@ -529,28 +554,40 @@
                 S kom / S čim
             </td>
             <td rowspan="3">
-                S / Z
+                S / Z <br />(Ta SuHi ŠKaFeC PuŠČa -> S)
+                <BR />MED / PRED / POD / NA / ZA
             </td>
             <td>
                 1
             </td>
             <td>
-                ?
-                <!-- TODO  -->
+                ENIM / ENO (Ž)
             </td>
             <td>
-                Zelenim <br />
+                Enim zelenim
                 <span class="word">
                     Stol<span class="hl">om</span>
+                </span><br />
+                <span class="jev">
+                    Enim starim
+                    <span class="word">
+                        Prijatelj<span class="hl">em</span> 
+                    </span>
                 </span>
             </td>
             <td>
-                Črno<br />
+                Eno Črno<br />
                 <span class="word">Miz<span class="hl">o</span> </span>
             </td>
             <td>
-                Majhnim<br />
-                <span class="word">Letal<span class="hl">om</span></span>
+                Enim majhnim
+                <span class="word">Letal<span class="hl">om</span></span><br />
+                <span class="jev">
+                    Enim čistim
+                    <span class="word">
+                        Stanovanj<span class="hl">em</span> 
+                    </span>
+                </span>
             </td>
         </tr>
         <tr>
@@ -558,13 +595,18 @@
                 2
             </td>
             <td>
-                ?
-                <!-- TODO  -->
+                DVEMA
             </td>
             <td class="third">
-                Zelenima <br />
+                Zelenima
                 <span class="word">
                     Stol<span class="hl">oma</span>
+                </span><br />
+                <span class="jev">
+                    Starima
+                    <span class="word">
+                        Prijatelj<span class="hl">ema</span> 
+                    </span>
                 </span>
             </td>
             <td class="third">
@@ -572,8 +614,14 @@
                 <span class="word">Miz<span class="hl">ama</span> </span>
             </td>
             <td class="third">
-                Majhnima<br />
-                <span class="word">Letal<span class="hl">oma</span></span>
+                Majhnima
+                <span class="word">Letal<span class="hl">oma</span></span><br />
+                <span class="jev">
+                    Čistima
+                    <span class="word">
+                        Stanovanj<span class="hl">ema</span> 
+                    </span>
+                </span>
             </td>
         </tr>
         <tr>
@@ -581,11 +629,10 @@
                 3
             </td>
             <td>
-                ?
-                <!-- TODO  -->
+                TREMI
             </td>
             <td>
-                Zelenimi <br />
+                Zelenimi<br />
                 <span class="word">
                     Stol<span class="hl">i</span>
                 </span>
@@ -595,8 +642,9 @@
                 <span class="word">Miz<span class="hl">ami</span> </span>
             </td>
             <td>
-                Majhnimi<br />
+                Majhnimi <br />
                 <span class="word">Letal<span class="hl">i</span></span>
+
             </td>
         </tr>
 
