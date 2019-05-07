@@ -154,7 +154,7 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * odlagališče - place where trash is dumped
 * dejansko - actually, as a matter of fact
 * dejanje - action
-* ozemlju - territory
+* ozemlje - territory
 * naseljenost - population
 * gosto naseljeno mesto - densely populated city
 * izpušni plini - released gases
