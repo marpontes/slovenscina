@@ -193,3 +193,6 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * ukrepati - take urgent action
 * nemudoma - immediatelly
 * namerávati - to intend to
+* natančen - precise
+* oznaka - label
+* izvor - source/origin
