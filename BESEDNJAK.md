@@ -196,3 +196,4 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * natančen - precise
 * oznaka - label
 * izvor - source/origin
+* priložnost - chance / opportunity
