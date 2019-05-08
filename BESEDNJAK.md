@@ -196,3 +196,6 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * natančen - precise
 * oznaka - label
 * izvor - source/origin
+* kakovost - quality
+* zaščititi - to protect
+* zaščitil sem roke - i protected my hands
