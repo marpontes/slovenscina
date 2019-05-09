@@ -201,3 +201,6 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * zaščitil sem roke - i protected my hands
 * priložnost - chance / opportunity
 * obistveno - obviously
+* udeležiti se - to attend
+* on se je udeležil - he attended to
+* zagotovo - for sure
