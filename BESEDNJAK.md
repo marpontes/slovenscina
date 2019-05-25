@@ -202,3 +202,4 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * priložnost - chance / opportunity
 * obistveno - obviously
 * strokoven - professional
+* sem prepričan - I'm sure
