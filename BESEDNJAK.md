@@ -207,3 +207,8 @@ Tukaj napišem vsaka neznana beseda in morem delati da bom razumel.
 * kakovost - quality
 * zaščititi - to protect
 * on se je udeležil - he attended to
+* zaščitil sem roke - i protected my hands
+* priložnost - chance / opportunity
+* obistveno - obviously
+* strokoven - professional
+* sem prepričan - I'm sure
